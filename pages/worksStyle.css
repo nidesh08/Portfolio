@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 233, 217 );   
+    
+    font-family: 'Poppins', sans-serif;
+  }
+.cardColumn {
+    float: left;
+    width: 33%;
+    padding: 0px 30px;
+    
+  }
+  
+  .card {
+    box-shadow: 0 2px 4px 0 black;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(136, 134, 139);
+    transition: 0.5s;
+    border-radius:10px;
+    height:60vh;
+
+  }
+  .card:hover{
+    box-shadow: 0 4px 15px 0 rgb(0, 0, 0, 1);
+  }
+  .cardRow
+  {
+    justify-content: center;
+    margin:auto;
+    width:80%;
+    align-items: center;
+    position:relative;
+    top:15vh;
+
+  }
+  .cardText{
+    padding: 2px 16px;
+    height: 50%;
+    color:rgb(236, 208, 225);
+  
+  }
+  .cardText h2{
+    font-weight: bold;
+    text-shadow: 0px 4px 6px rgb(54, 54, 54);
+  }
+.cardImage{
+    width:70%;
+    height:50%;
+    margin:auto;
+}
+.cardImage1{
+
+    width:78%;
+    margin:auto;
+}
+
+@media screen and (max-width: 600px) {
+
+  .cardRow{
+      align-items: center;
+      
+  }
+  .cardColumn {
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left:10%;
+    
+  }
+  .cardText{
+      padding: 2px 16px;
+  }
+  .cardText h5
+  {
+   font-size:14px;
+  }
+  .card{
+    margin-top:5px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cardRow{
+      align-items: center;
+      
+  }
+  .cardColumn {
+    width: 60%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left:20%;
+    
+  }
+  .cardText{
+      padding: 2px 16px;
+      font-size: 14px;
+  }
+  .card{
+    margin-top:5px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 920px) {
+
+  .cardText{
+      padding: 2px 16px;
+      font-size: 10px;
+  }
+  .card{
+    margin-top:5px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 1024px)
+{
+  body{
+    overflow: hidden;
+  }
+}
+.circle
+{
+  background-color: rgb(245, 200, 181);
+  width:30vw;
+  height:30vw;
+  z-index:-1;
+  position:absolute;
+  top:0vh;
+  left:0vw;
+  border-radius:50%;
+  transform: translate(-40%, -40%);
+  opacity:50%;
+
+}
+.circle2
+{
+  background-color: rgb(195,200,177);
+  width:30vw;
+  height:30vw;
+  z-index:-1;
+  position:absolute;
+  bottom:0vh;
+  right:0vw;
+  border-radius:50%;
+  transform: translate(20%, 20%);
+  opacity:50%;
+
+}
