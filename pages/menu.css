@@ -1,0 +1,123 @@
+.menu
+{
+    cursor: pointer;
+    position:fixed;
+    width: 75px;
+    height: 75px;
+    text-align:center;
+    line-height: 75px;
+    background-color:rgb(149, 149, 149);
+    color:rgb(34, 34, 34);
+    border-radius:50%;
+    font-size:40px;
+    top:30px;
+    left:35px;
+    z-index: 4;
+}
+.menu:hover
+{
+    box-shadow: 0px 2px 8px rgb(49, 49, 49);
+}
+.hide
+{
+    width:100px;
+    height:50px;
+    left:25px;
+    position:fixed;
+    z-index:3;
+}
+.buttons
+{
+    position: fixed;
+    top:100px;
+    left:23px;
+    text-align: center;
+    display:none;
+    font-size:40px;
+    width: 100px;
+    padding-left:15px;
+    z-index:2;
+}
+.show
+{
+    display:block;
+    animation: down 1s;
+    animation-timing-function: ease;
+}
+@keyframes down 
+{
+    from {top: -250px;}
+    to {top: 100px;}
+}
+.rowA
+{
+    background-color: #c49a94;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height:70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;   
+}
+.buttonA
+{
+    color: #63332b;
+    text-decoration:none;
+}
+.buttonA:hover
+{
+    color: #351d19;
+}
+.rowA:hover
+{
+    box-shadow: 2px 4px 9px gray;
+}
+.rowB
+{
+    background-color: #bb845c;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height:70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;   
+}
+.buttonB
+{
+    color: #613b20;
+    text-decoration:none;
+}
+.buttonB:hover
+{
+    color: #492b15;
+}
+.rowB:hover
+{
+    box-shadow: 2px 4px 9px gray;
+}
+.rowC
+{
+    background-color: #aab7bd;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height:70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;   
+}
+.buttonC
+{
+    color: #16313d;
+    text-decoration:none;
+}
+.buttonC:hover
+{
+    color: #346579;
+}
+.rowC:hover
+{
+    box-shadow: 2px 4px 9px gray;
+}
